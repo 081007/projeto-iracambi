@@ -1,0 +1,132 @@
+body {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: ghostwhite;
+    background-color: var(--gray-100) ;
+    background: var(--gray-100);
+
+}
+
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    background-color: var(--gray-100);
+    gap: 200px;
+    
+
+}
+
+.titleD {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--gray-100) ; 
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.clr {
+
+    background: var(--green-600);
+    border-radius: 50px;
+    width: 700px;
+    font-family: fantasy, sans-serif;
+    font-size: 6rem;
+    padding: 10px;
+
+}
+
+.produtos1{
+
+   background-color: var(--text-color);
+   padding: 10px;
+   border-radius: 10px;
+
+}
+
+.produtos2{
+
+    background-color: var(--text-color);
+    padding: 10px;
+    border-radius: 10px;
+ 
+ }
+ 
+ .produtos3{
+
+    background-color: var(--text-color);
+    padding: 10px;
+    border-radius: 10px;
+ 
+ }
+
+.imgC {
+
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bt {
+
+    background-color: var(--green-600);
+    border-radius: 500px;
+    padding: 16px 40px;
+    cursor: pointer;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-decoration: none;
+    border: 10px;
+    transition: 0.5s;
+    transform: scale(0.7);
+    
+}
+
+.bt:hover {
+
+    background-color: var(--green-400);
+    background-position: 100%;
+    outline: 2px solid var(--green-400);
+    transform: scale(1.05);
+    transition: 0.5s;
+    
+}
+
+.button{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: var(--green-600);
+    border-radius: 500px;
+    padding: 20px 40px;
+    color: var(--text-color);
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+.button:hover{
+
+    background-color: var(--green-400);
+    background-position: 100%;
+    outline: 2px solid var(--green-400);
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+@media only screen and (max-width:450px) {
+
+    
+}
